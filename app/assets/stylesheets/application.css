@@ -1,10 +1,21 @@
 /** Body, link, and other global styles **/
 body {
 	background: #ffffff;
+	margin: 0px;
 }
 
 a {
 	text-decoration: none;
+}
+
+.float-left {
+	float: left;
+	margin: 20px;
+}
+
+.float-right {
+	float: right;
+	margin: 20px;
 }
 
 /** Header CSS **/
@@ -12,7 +23,8 @@ a {
 header {
 	position: fixed;
 	width: 100%;
-	opacity: 0.98;
+	height: 217px;
+	background-color: #ffffff;
 }
 
 nav {
@@ -32,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #000000;
+	color: #E83A3A;
 }
 
 .logo {
@@ -64,5 +76,61 @@ nav a:hover {
 	font-size: 22px;
 	padding-top: 9px;
 	font-style: italic;
-	z-index: -1;
+}
+
+/** Welcome View **/
+
+.video {
+	height: 445px;
+	background-color: #000000;
+	margin-top: 200px;
+}
+
+.title {
+	font-size: 24px;
+	font-style: italic;
+	color: #b11204;
+	float: left;
+	margin-left: 40px;
+	margin-top: 50px;
+	clear: both;
+}
+
+.text {
+	margin-left: 40px;
+	margin-right: 20px;
+	font-size: 18px;
+	color: #363636;
+	font-family: Georgia;
+}
+
+.arnice {
+	background: url(miss_black_amer_v2_08.jpg);
+	background-repeat: no-repeat;
+	background-color: gray;	
+	height: 300px;
+	width: 100%;
+}
+
+.oprah {
+	background-repeat: no-repeat;
+	background-color: #b11204;	
+	height: 300px;
+	width: 100%;
+	clear: both;
+}
+
+.oprah img {
+	margin-top: 60px;
+	margin-left: 60px;
+	box-shadow: 10px 10px 5px #171717;
+	float: left;
+}
+
+.oprah-text {
+	font-size: 30px;
+	font-style: italic;
+	color: #ffffff;
+	margin-left: 600px;	
+	text-align: center;	
 }
