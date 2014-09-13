@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MissBlackAmerica</title>
+  <title>Miss Black America</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<header>
+	
+	<a href="/"><img class="logo" src="/assets/miss_black_amer_v2_01.png" alt="Miss Black America Logo"></a>
+	
+	<div class="register">
 
+		<p>Compete For This Years Crown!</p>
+	<a href="#" class="button">Register</a>
+
+	</div>
+
+	<nav>
+		<a href="#About">About</a> | 
+		<a href="#Legacy">Legacy</a> | 
+		<a href="#Contestants">Contestants</a> | 
+		<a href="#Reigning Queen">Reigning Queen</a> | 
+		<a href="#Photo Gallery">Photo 
+			Gallery</a> | 
+		<a href="#Events">Events</a>
+	</nav>
+
+</header>
 <%= yield %>
 
 </body>
